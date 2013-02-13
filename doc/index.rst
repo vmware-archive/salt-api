@@ -38,6 +38,27 @@ Development quickstart
 
     topics/quickstart
 
+Instalation
+-----------------
+1) Download and install cherrypy as a dependancy
+2) Download salt-api and navigate to the folder
+3) Install salt-api :command:`python setup.py install`
+4) Run salt-api by issuing :command:`salt-api`
+
+Configuration
+-----------------
+1) Setup `external_auth`_ in Salt master configuration file
+2) Include the rest_cherrypy in your master configureation file::
+
+   rest_cherrypy:
+     port: 8000
+
+     # Testing use only. Use SSL for production
+
+     debug: True
+
+.. _`external_auth`: http://docs.saltstack.org/en/latest/topics/eauth/index.html
+
 netapi modules
 ==============
 
