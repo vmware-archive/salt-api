@@ -10,9 +10,6 @@ of Salt's **Helium** release.
 No api changes were made. The ``salt-api`` daemon remains intact and is
 now available in the default ``salt-master`` install.
 
-The documentation has been moved into the main salt project as well. ``netapi``
-module documentation is available in the module index.
-
 No further development will take place in this repository. It will be left in
 the current state for historical purposes. Open issues will be migrated to the
 Salt repository.

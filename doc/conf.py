@@ -88,8 +88,6 @@ addtl_paths = (
 for path in addtl_paths:
     sys.path.insert(0, os.path.abspath(os.path.join(docs_basepath, path)))
 
-from saltapi.version import __version__
-
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
@@ -98,7 +96,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 project = 'salt-api'
 copyright = '2012, Thomas S. Hatch'
 
-version = __version__
+version = '0.1'
 release = version
 
 master_doc = 'index'
