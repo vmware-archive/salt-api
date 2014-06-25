@@ -96,7 +96,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 project = 'salt-api'
 copyright = '2012, Thomas S. Hatch'
 
-version = '0.1'
+version = '0.8.4'
 release = version
 
 master_doc = 'index'
