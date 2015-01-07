@@ -19,23 +19,16 @@ salt-api
     in the current state for historical purposes. Open issues will be migrated
     to the Salt repository.
 
-Documentation
-=============
+    Current documentation now lives within the main Salt documentation.
 
-The documentation now lives within the main Salt documentation.
+    * `Introduction to netapi modules
+      <http://docs.saltstack.com/en/latest/topics/netapi/index.html>`_
+    * `Full list of netapi modules
+      <http://docs.saltstack.com/en/latest/ref/netapi/all/index.html>`_
+    * `Archived release notes
+      <http://docs.saltstack.com/en/latest/topics/releases/saltapi/index.html>`_
 
-* `Introduction to netapi modules
-  <http://docs.saltstack.com/en/latest/topics/netapi/index.html>`_
-* `Full list of netapi modules
-  <http://docs.saltstack.com/en/latest/ref/netapi/all/index.html>`_
-* `Archived release notes
-  <http://docs.saltstack.com/en/latest/topics/releases/saltapi/index.html>`_
-
-======================
-Archived Documentation
-======================
-
-The documentation for the final salt-api release, 0.8.4.1, is included below.
+    The documentation for the final salt-api release, 0.8.4.1, is included below.
 
 ----------
 
